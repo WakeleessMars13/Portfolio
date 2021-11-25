@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, Helvetica, sans-serif
+}
+
+header {
+    background-image: linear-gradient(to right,rgb(255, 251, 251),rgba(255, 147, 147, 0.76));
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+    padding: 10px 35px;
+    border-bottom: black 5px thick;
+}
+
+header h1 a {
+    font-weight: bold;
+    color:white;
+    font-family: Marker Felt, fantasy;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(37,150,190,0.5));
+}
+
+header a {
+    text-decoration: none;
+    font-family:Marker Felt, fantasy;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: bolder;
+    font-size: 2.0vw;
+    color:black;
+    padding: 0 80px 0 70px;
+}
+
+.hero {
+    background-image: linear-gradient(to right,rgb(255, 251, 251),rgba(255, 147, 147, 0.76));
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    height: 700px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    z-index: 2;
+}
+.hero-header {
+    z-index: 5;
+    position: absolute;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Marker Felt, fantasy;
+    float: left;
+}
+.hero-img {
+    height: 100%;
+    padding: auto;
+    width: 800px;
+    float: right;
+    margin-left: 600px;
+    position: relative;
+    box-shadow: inherit rgba(255,255,255,0.5);
+}
+
+.intro {
+    z-index: 5;
+    display: inline;
+    align-items: center
+}
+
+.intro-cont {
+    border-color: black;
+    border-style: groove;
+    align-items: center;
+    height: 200px;
+    padding: auto;
+}
+
+.name {
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100px;
+    height: 10px;
+    flex-wrap: wrap;
+    margin: 18.5%;
+    color: black;
+    font-size: 50px;
+    line-height: 1.5;
+    display: block;
+    position: absolute;
+    margin-top: 150px;
+}
+
+
+.myprojects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content {
+    margin: 10px;
+    padding: auto;
+    height: 200px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.section-title {
+    align-content: center;
+    margin-left: 45%;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
